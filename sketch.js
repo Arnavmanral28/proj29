@@ -147,7 +147,7 @@ function mouseReleased(){
 function keyPressed(){
   if(keyCode=== 32){
 
-    Matter.Body.setPosition(polygon.body,{x:100,y:200})
+    Matter.Body.setPosition(polygon.body,{x:100,y:200});
     slingShot.launch(polygon.body);
      
   }
